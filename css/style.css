@@ -38,6 +38,10 @@ body { font-family: var(--font-sans); font-size: 1rem; line-height: 1.65; color:
 .brand-badge { background-color: var(--color-brand-blue); color: #ffffff; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; padding: 0.2rem 0.5rem; border-radius: var(--radius-sm); }
 .brand-name { font-size: 1.1rem; font-weight: 600; letter-spacing: -0.01em; }
 .meta-tag { font-size: 0.8125rem; color: #94a3b8; font-family: var(--font-mono); }
+.site-nav-links { display: flex; gap: 1.5rem; }
+.site-nav-links a { color: #cbd5e1; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.15s ease; }
+.site-nav-links a:hover { color: #ffffff; }
+@media (max-width: 640px) { .site-nav-links { gap: 1rem; font-size: 0.85rem; } }
 .hero-section { background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%); color: #ffffff; padding: 3.5rem 0 3rem; border-bottom: 1px solid var(--color-border); }
 .hero-header { max-width: 900px; margin-bottom: 2.5rem; }
 .topic-pill { display: inline-flex; align-items: center; gap: 0.4rem; background-color: rgba(2, 132, 199, 0.2); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; padding: 0.25rem 0.65rem; border-radius: 9999px; margin-bottom: 1.25rem; }
@@ -136,6 +140,9 @@ body { font-family: var(--font-sans); font-size: 1rem; line-height: 1.65; color:
 .copy-toast.show { transform: translateY(0); opacity: 1; visibility: visible; }
 .site-footer { background-color: var(--color-brand-dark); color: #94a3b8; border-top: 1px solid rgba(255, 255, 255, 0.1); padding: 2.5rem 0; font-size: 0.8125rem; line-height: 1.6; }
 .footer-content { max-width: 900px; }
+.footer-nav-links { display: flex; gap: 1.5rem; margin-bottom: 1rem; }
+.footer-nav-links a { color: #cbd5e1; text-decoration: none; font-size: 0.875rem; font-weight: 500; }
+.footer-nav-links a:hover { color: #ffffff; }
 @media (max-width: 768px) {
   .hero-section { padding: 2.25rem 0 2rem; }
   .key-facts-panel { padding: 1.25rem; }

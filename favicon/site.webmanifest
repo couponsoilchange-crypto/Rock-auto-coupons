@@ -1,0 +1,14 @@
+{
+  "name": "RockAuto Savings Guide",
+  "short_name": "RockAuto Codes",
+  "icons": [
+    {
+      "src": "/favicon/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#0F172A",
+  "background_color": "#F8FAFC",
+  "display": "standalone"
+}

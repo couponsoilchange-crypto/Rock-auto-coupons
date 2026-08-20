@@ -148,7 +148,7 @@ body { font-family: var(--font-sans); font-size: 1rem; line-height: 1.65; color:
 .copy-toast.show { transform: translateY(0); opacity: 1; visibility: visible; }
 .site-footer { background-color: var(--color-brand-dark); color: #94a3b8; border-top: 1px solid rgba(255, 255, 255, 0.1); padding: 2.5rem 0; font-size: 0.8125rem; line-height: 1.6; }
 .footer-content { max-width: 900px; }
-.footer-nav-links { display: flex; gap: 1.5rem; margin-bottom: 1rem; }
+.footer-nav-links { display: flex; flex-wrap: wrap; gap: 0.85rem 1.5rem; margin-bottom: 1rem; }
 .footer-nav-links a { color: #cbd5e1; text-decoration: none; font-size: 0.875rem; font-weight: 500; }
 .footer-nav-links a:hover { color: #ffffff; }
 @media (max-width: 768px) {
